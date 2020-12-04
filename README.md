@@ -5,6 +5,7 @@
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
     ![](/img/lm.PNG)
+
 Vehicle_length and ground_clearance provide are statistically to provide non-random amount of variance to the mpg values in the dataset as vehicle_length and ground_clearance have the lease Pr(>|t|) value comparing to other variables. Intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in our model.  
 
 
