@@ -34,7 +34,7 @@ The linear model predicts mpg of MechaCar prototypes effectively. This is becaus
  ## T-Tests on Suspension Coils
 
  - By using significance level of 95%, our p-value 0.06028 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis that PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, and the two means are statistically similar. By looking at the p-value at the lot level, lot1 has p-value of 1, lot2 has p-value of 0.6072 and lot3 has p-value of 0.04168. Therefore, we do not have sufficient evidence to reject the null hypothesis that lot is not statistically different from the population mean of 1,500 pounds per square inch for all lots result, lot1 and lot2. We would reject lot3 because p-value is below 0.05 percent which means lot3 is statistically different from the population mean.
-    ![](/img/All_t_test.PNG)
+    ![](/img/all_t_test.PNG)
     ![](/img/lot1_t_test.PNG)
     ![](/img/lot2_t_test.PNG)
     ![](/img/lot3_t_test.PNG)
