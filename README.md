@@ -10,7 +10,7 @@ Vehicle_length and ground_clearance provide are statistically to provide non-ran
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
-      ![](/img/lm_summary.PNG)
+      ![](/img/summary.PNG)
 The slope of the linear model is not considered to be zero. This is because from the linear regression model, 
 p-value of our linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
