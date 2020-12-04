@@ -24,7 +24,7 @@ The linear model predicts mpg of MechaCar prototypes effectively. This is becaus
 
  - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-    ![](/img/summary_coil.PNG)
+    ![](/img/Summary_coil.PNG)
 
     ![](/img/lot_summary_coil.PNG)
 
@@ -34,10 +34,10 @@ The linear model predicts mpg of MechaCar prototypes effectively. This is becaus
  ## T-Tests on Suspension Coils
 
  - By using significance level of 95%, our p-value 0.06028 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis that PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, and the two means are statistically similar. By looking at the p-value at the lot level, lot1 has p-value of 1, lot2 has p-value of 0.6072 and lot3 has p-value of 0.04168. Therefore, we do not have sufficient evidence to reject the null hypothesis that lot is not statistically different from the population mean of 1,500 pounds per square inch for all lots result, lot1 and lot2. We would reject lot3 because p-value is below 0.05 percent which means lot3 is statistically different from the population mean.
-    ![](/img/all_t_test.PNG)
-    ![](/img/lot1_t_test.PNG)
-    ![](/img/lot2_t_test.PNG)
-    ![](/img/lot3_t_test.PNG)
+    ![](/img/All_t_test.PNG)
+    ![](/img/Lot1_t_test.PNG)
+    ![](/img/Lot2_t_test.PNG)
+    ![](/img/Lot3_t_test.PNG)
 
 ## Study Design: MechaCar vs Competition
 - Cost, city or highway fuel efficiency, horse power are the main three factors would be of interest to a consumer. In order to compare the MechaCar vehicles with other competitions, I would use cost, city or highway fuel efficiency, horse power to perform analysis between MechaCar vs Competitions. 
