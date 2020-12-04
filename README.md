@@ -6,19 +6,19 @@
 
     ![](/img/lm.PNG)
 
-Vehicle_length and ground_clearance provide are statistically to provide non-random amount of variance to the mpg values in the dataset as vehicle_length and ground_clearance have the lease Pr(>|t|) value comparing to other variables. Intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in our model.  
+    Vehicle_length and ground_clearance provide are statistically to provide non-random amount of variance to the mpg values in the dataset as vehicle_length and ground_clearance have the lease Pr(>|t|) value comparing to other variables. Intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in our model.  
 
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
     ![](/img/summary.PNG)
-The slope of the linear model is not considered to be zero. This is because from the linear regression model, 
-p-value of our linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+
+    The slope of the linear model is not considered to be zero. This is because from the linear regression model, p-value of our linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
 
    
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-The linear model predicts mpg of MechaCar prototypes effectively. This is because the r-squared value of the dataset is 0.6825 which means roughly 68% of all mpg predictions will be correct when using this linear model. 
+    The linear model predicts mpg of MechaCar prototypes effectively. This is because the r-squared value of the dataset is 0.6825 which means roughly 68% of all mpg predictions will be correct when using this linear model. 
 
 ## Summary Statistics on Suspension Coils
 
@@ -29,7 +29,7 @@ The linear model predicts mpg of MechaCar prototypes effectively. This is becaus
 
     ![](/img/lot_summary_coil.PNG)
 
- Based on the summary, the overall variance is 62.29 which meets manufacturing specification. However, when looking at the lots level, lot1 and lot2 meet the manufacturing specification with variance of 0.98 PSI and 7.47 PSI. Lot3 does not meet the manufacturing specification with variance of 170.29 PSI which is over the 100 pounds per square inch requirement. Therefore, manufacturing team should work on improving the manufaturing in lot3. 
+    Based on the summary, the overall variance is 62.29 which meets manufacturing specification. However, when looking at the lots level, lot1 and lot2 meet the manufacturing specification with variance of 0.98 PSI and 7.47 PSI. Lot3 does not meet the manufacturing specification with variance of 170.29 PSI which is over the 100 pounds per square inch requirement. Therefore, manufacturing team should work on improving the manufaturing in lot3. 
 
 
  ## T-Tests on Suspension Coils
